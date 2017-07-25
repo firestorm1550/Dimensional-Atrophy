@@ -46,6 +46,7 @@ public class MainMenuController : MonoBehaviour {
     }
     public void OnClick_QuitGameButton()
     {
+        Debug.Log("In OnClick_QuitGameButton()");
         Application.Quit();
     }
 
